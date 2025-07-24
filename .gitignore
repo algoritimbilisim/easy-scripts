@@ -1,0 +1,8 @@
+addIEntity
+change-env-dev
+change-env-prod
+check-api-contracts
+fix-controllers
+fix-mappers
+getAllEndpointsAndPermissions
+exclude

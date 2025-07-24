@@ -30,6 +30,25 @@ easy-scripts/
     └── README.md
 ```
 
+## Available Scripts
+
+### Development & Code Management
+- **docker-kill**: Docker servislerini zorla durdurur ve sıfırlar, bağlantı sorunlarını çözer
+- **git-status-recursive**: Dizin ağacındaki tüm Git depolarının durumunu özyinelemeli olarak kontrol eder
+- **git-summary**: Git commit geçmişinin kapsamlı CSV raporunu oluşturur
+- **javaEntityToTsGenerator**: Java JPA entity sınıflarını TypeScript arayüzlerine otomatik dönüştürür
+- **javaToTxtConverter**: Java dosyalarını .txt uzantılı metin dosyalarına dönüştürür
+- **openApiGenerator**: Spring Boot REST controller'ları için OpenAPI 3.0 spesifikasyonu oluşturur
+- **responseRequestGenerator**: Java entity'ler için Request ve Response POJO sınıfları otomatik üretir
+
+### Code Formatting & Cleanup
+- **remove-console-logs**: JavaScript/TypeScript dosyalarından console log ifadelerini kaldırır
+- **remove-extra-blank-lines**: TypeScript, TSX ve Vue.js dosyalarından fazla boş satırları temizler
+
+### File & Directory Operations
+- **pageStructureCopy**: Kaynak dizinin yapısını hedef dizine kopyalar (sadece klasör hiyerarşisi)
+- **split-video**: Video dosyasını belirtilen sayıda eşit parçaya böler
+
 ## How to Use
 
 1.  Clone this repository:
@@ -40,7 +59,7 @@ easy-scripts/
 
 2.  Navigate to the script folder you're interested in:
     ```bash
-    cd disk-usage-check
+    cd docker-kill
     ```
 
 3.  Follow the instructions in the local `README.md` file to run the script.
@@ -64,4 +83,4 @@ Contributions are welcome! To add a new script:
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the Apache 2.0 License.
